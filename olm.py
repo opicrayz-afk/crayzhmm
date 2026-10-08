@@ -117,7 +117,7 @@ V1_SUFFIX = f"?{V1_QUERY}"
 # v19.1: bump schema version -> cache cũ tự bị loại, tránh trộn dữ liệu
 # trước/sau khi port extractQuestionData.
 CURRENT_SCHEMA_VERSION = 7  # v20.2: clean MathType spans + exact Userscript Blob 61/68 data_log
-APP_VERSION = "20.2"
+APP_VERSION = "999 AURA"
 
 # === v20.0 — LIÊN KẾT LẤY KEY MIỄN PHÍ ===
 # Người dùng tự điền link trang lấy key vào ĐÂY (hoặc đặt biến môi trường
@@ -8665,9 +8665,7 @@ class OLMApp:
     # rồi dán chuỗi kết quả vào `_INTERNAL_UPDATE_BLOB` bên dưới.
     _INTERNAL_UPDATE_KEY = b"OLM_PRO_V20_DEEP_SECRET_2026_KEY"
     _INTERNAL_UPDATE_BLOB = (
-        "Jzs4NWx/cHZrY2Z4O2Nrfj92d2s6eG5lZno+emZpY3B3N2lrf2ZjP2h6c2t+"
-        "ZHl7dj96b2s9dWw/f2s5bmJofH9rOmZrOnhuamJ7aX5rOnhuZmp6eG5/fHZr"
-        "Y3F6Zmk="
+        "Jzg5LyNoYHAkU0dxIywxOCoxMDA3NzcwXERXWCtlJjYiYyIvOTE9Pi9IHT4iLmozLTI8OTooOXBfUVtYcCQpNGE8NA=="
     )
 
     @classmethod

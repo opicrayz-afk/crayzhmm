@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
-  "download_url": "https://github.com/opicrayz-afk/crayzhmm/releases/download/v1.0.3/OLMToolPro.exe",
+  "version": "2.0.0",
+  "download_url": "https://github.com/opicrayz-afk/crayzhmm/releases/download/v2.0.0/OLMToolPro.exe",
   "sha256": "",
-  "changelog": "Phát hành phiên bản 1.0.3 chính thức [SỬA MỘT SỐ LỖI VÀ FIX AUTO-UPDATE]",
+  "changelog": "Phát hành phiên bản 2.0.0 chính thức [FIX AUTO-UPDATE VÀ TỐI ƯU]",
   "mandatory": false
 }

@@ -1,7 +1,7 @@
 {
-  "version": "67.36",
-  "download_url": "https://github.com/opicrayz-afk/crayzhmm/releases/download/67.36/OLMToolPro.exe",
-  "sha256": "357e1d78d5ec",
-  "changelog": "Sửa lỗi và cập nhật mới",
+  "version": "1.0.0",
+  "download_url": "https://github.com/opicrayz-afk/crayzhmm/releases/download/v1.0.0/OLMToolPro.exe",
+  "sha256": "",
+  "changelog": "Phát hành phiên bản 1.0.0 chính thức",
   "mandatory": false
 }

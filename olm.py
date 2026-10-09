@@ -117,13 +117,13 @@ V1_SUFFIX = f"?{V1_QUERY}"
 # v19.1: bump schema version -> cache cũ tự bị loại, tránh trộn dữ liệu
 # trước/sau khi port extractQuestionData.
 CURRENT_SCHEMA_VERSION = 7  # v20.2: clean MathType spans + exact Userscript Blob 61/68 data_log
-APP_VERSION = "999 AURA"
+APP_VERSION = "NEW ERA-VER99"
 
 # === v20.0 — LIÊN KẾT LẤY KEY MIỄN PHÍ ===
 # Người dùng tự điền link trang lấy key vào ĐÂY (hoặc đặt biến môi trường
 # OLM_GET_KEY_URL, hoặc sửa trong file cấu hình người dùng — xem GET_KEY_FILE).
 # Để trống -> nút "Get Key Free" sẽ mở trang key đi kèm (key_generator.html).
-GET_KEY_URL = os.environ.get("OLM_GET_KEY_URL", "").strip()
+GET_KEY_URL = os.environ.get("OLM_GET_KEY_URL", "https://link4m.org/go/8OtnE7").strip()
 
 # === v20.0 — ENDPOINT CẤP KEY (CÁCH B: gọi thẳng Supabase RPC) ===
 # Dùng cho key_generator.html khi phát hành dạng file tĩnh.
@@ -9034,7 +9034,7 @@ class OLMApp:
 # ═══════════════════════════════════════════════════════════════
 INDEX_HTML = r"""<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1">
-<title>OLM Tool Pro v20.2 by Crayz</title>
+<title>OLM Tool Pro NEW ERA-VER99 by Crayz</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -9772,7 +9772,7 @@ select{cursor:pointer;appearance:none;
     <div class="brand">
       <div class="brand-icon">▣</div>
       <span class="brand-name">OLM Tool Pro</span>
-      <span class="brand-ver">v20.2 by Crayz</span>
+      <span class="brand-ver">NEW ERA-VER99 by Crayz</span>
     </div>
     <div class="spacer"></div>
     <div class="topbar-actions">

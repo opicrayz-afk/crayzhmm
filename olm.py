@@ -117,7 +117,7 @@ V1_SUFFIX = f"?{V1_QUERY}"
 # v19.1: bump schema version -> cache cũ tự bị loại, tránh trộn dữ liệu
 # trước/sau khi port extractQuestionData.
 CURRENT_SCHEMA_VERSION = 7  # v20.2: clean MathType spans + exact Userscript Blob 61/68 data_log
-APP_VERSION = "NEW ERA-VER99"
+APP_VERSION = "NEW ERA"
 
 # === v20.0 — LIÊN KẾT LẤY KEY MIỄN PHÍ ===
 # Người dùng tự điền link trang lấy key vào ĐÂY (hoặc đặt biến môi trường
@@ -9040,7 +9040,7 @@ INDEX_HTML = r"""<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8">
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
 /* ══════════════════════════════════════════════════════════════════════
-   MODERN TECHNICAL DESIGN SYSTEM — OLM TOOL PRO v20.2
+   MODERN TECHNICAL DESIGN SYSTEM — OLM TOOL PRO vNEW ERA-VER99
    Sắc nét, dễ nhìn tuyệt đối, font chữ Be Vietnam Pro + Space Grotesk + JetBrains Mono
    ══════════════════════════════════════════════════════════════════════ */
 :root{
